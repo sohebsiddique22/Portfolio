@@ -1,0 +1,366 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    /* background: #081b29; */
+    color: #ededed;
+    /* scroll-behavior: smooth; */
+}
+.header{
+    /* position: fixed;
+    top: 0%;
+    left: 0%; */
+    width: 100%;
+    background-color:black;
+    height:80px;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ededed;
+}
+.nav-bar a {
+    text-decoration: none;
+    margin-right:1vw;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ededed;
+    transition:0.5s;
+}
+.active{
+    color: red;
+}
+.nav-bar a:hover{
+    color:red;
+    transform: scale(1.4);
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left:10%;
+    background-image: url(./img/hero.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+.mainitem{
+    /* background-color: blue; */
+    height:40%;
+    width:60%;
+}
+.mainitem h1{
+    font-size:5vw;
+    font-weight:600;
+}
+.hero-section-heading {
+    font-size: 35px;
+    font-weight:700;
+    color: aqua;
+}
+
+.role {
+    color: yellow;
+}
+.mainitem p{
+    padding-top:15px;
+    line-height:24px;
+}
+.btx{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    height: 50px;
+    width:280px;
+    margin-top:50px;
+}
+.btx a{
+    text-decoration: none;
+    color: aqua;
+    /* background-color: blue; */
+    height: 100%;
+    width:90px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    border-radius:10px;
+    transition: 0.5s;
+
+}
+.btx a:hover{
+    color:yellow;
+    transform: scale(1.4);
+}
+.icon{
+    position: absolute;
+    bottom:25px;
+}
+.icon a,i{
+    font-size:40px;
+    color: aqua;
+    margin:2px;
+    transition: 0.5s;
+}
+.icon i:hover{
+    color: blueviolet;
+    transform:scale(1.5); 
+}
+/* CODE FOR MAIN2 */
+.main2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    /* background-color: #081823; */
+    background-image: url(./img/pexels-tima-miroshnichenko-5135111.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity:70%;
+    border-top: 3px solid red;
+    transition:0.5s;
+}
+.main2:hover{
+    opacity: 100%;
+}
+.mtext1{
+    font-size:4vw;
+    text-align: center;
+    padding-top: 20px;
+    /* font-weight: 900; */
+}
+.circle{
+    height:300px;
+    width:300px;
+    background-color: aqua;
+    background-image: url(./img/circleimg2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 25px; */
+}
+.main2 h2{
+    font-size:2vw;
+    font-weight: 600;
+    color: black;
+}
+.main2 p{
+    width:60vw;
+    height:10vh;
+    color: black;
+}
+.main2 a{
+    font-size:15px;
+    font-weight:300;
+    text-decoration: none;
+    width:6vw;
+    height:6vh;
+    background-color: rgb(0, 217, 255);
+    color: #ededed;
+    border-radius:5px;
+    margin-bottom:20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.main3{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #081B29; */
+    opacity:90%;
+    background-image: url(./img/fire-549103_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top: 3px solid red;
+    
+}
+.main3 h1,.main4 h1,.main5 h1{
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 5px;
+    font-weight: 600;
+    padding-top:15px;
+}
+.text{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.box1,.main4box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont1,.cont2{
+    width:35vw;
+    height:26vh;
+    margin:10px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding:25px 25px;
+    transition: 0.5s;
+}
+.cont1:hover{
+    transform: scale(1.1);
+    border: 2px solid yellow;
+    border-radius: 5px;
+
+}
+.cont2:hover{
+    transform: scale(1.1);
+    border: 2px solid  yellow;
+    border-radius: 5px;
+}
+.box1 h4{
+    color:yellow;
+}
+.main4{
+    width: 100%;
+    height: 100vh;
+    /* background-color:#081823 ; */
+    background-image: url(./img/smoke-1001664_1920.png);
+    background-position: center;
+    background-size: cover;
+    border-top: 3px solid red;
+}
+.main4text{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top:40px;
+}
+.main4text h3{
+    font-weight: 600;
+}
+.main4cont1,.main4cont2{
+    width:35vw;
+    height:65vh;
+    margin-top:60px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    /* padding:25px 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main55{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #081B29;
+    background-image: url(./img/contactimg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: 3px solid red;
+}
+
+
+ /* css for progress bar */
+ .skill{
+    margin-bottom:20px;
+    
+}
+.skill h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.progress-bar{
+    background-color:black;
+    width:500px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width:0%;
+    /* background-color: blue; */
+
+}
+.progress-bar div span{
+    font-size:12px;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color:#081823 ;
+    float: right;
+    margin-top:-15px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html{
+    background: blueviolet ;
+    animation: html 1s linear forwards;
+}
+.css{
+    background:seagreen;
+    animation: css 1s linear forwards;
+}
+.javas{
+    background:skyblue;
+    animation: javas 1s linear forwards;
+}
+.nodej{
+    background:yellow;
+    animation:nodej 1s linear forwards;
+}
+.html span{
+    border: 1px solid brown;
+}
+.css span{
+    border: 1px solid yellow;
+}
+.javas span{
+    border: 1px solid green;
+}
+.nodej span{
+    border: 1px solid blue;
+}
+@keyframes html{
+    100%{
+        width:87%;
+    }
+}
+@keyframes css{
+    100%{
+        width:80%;
+    }
+}
+@keyframes javas{
+    100%{
+        width:78%;
+    }
+}
+@keyframes nodej{
+    100%{
+        width:70%;
+    }
+}
+
+
+
+
